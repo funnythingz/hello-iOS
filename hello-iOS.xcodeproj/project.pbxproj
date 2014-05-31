@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA84BDB21939BF370053FCB5 /* nyan-cat-meme.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA84BDB11939BF370053FCB5 /* nyan-cat-meme.jpg */; };
 		CF90864C19380E9800B02DDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF90864B19380E9800B02DDD /* Foundation.framework */; };
 		CF90864E19380E9800B02DDD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF90864D19380E9800B02DDD /* CoreGraphics.framework */; };
 		CF90865019380E9800B02DDD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF90864F19380E9800B02DDD /* UIKit.framework */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA84BDB11939BF370053FCB5 /* nyan-cat-meme.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "nyan-cat-meme.jpg"; path = "../../../Dropbox/MyPictuers/nyan-cat-meme.jpg"; sourceTree = "<group>"; };
 		CF90864819380E9800B02DDD /* hello-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hello-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF90864B19380E9800B02DDD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CF90864D19380E9800B02DDD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,7 +46,7 @@
 		CF90865719380E9800B02DDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CF90865919380E9800B02DDD /* hello-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hello-iOS-Prefix.pch"; sourceTree = "<group>"; };
 		CF90865A19380E9800B02DDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CF90865B19380E9800B02DDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF90865B19380E9800B02DDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; };
 		CF90865E19380E9800B02DDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		CF90866119380E9800B02DDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		CF90866319380E9800B02DDD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 		CF90865119380E9800B02DDD /* hello-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				BA84BDB11939BF370053FCB5 /* nyan-cat-meme.jpg */,
 				CF90865A19380E9800B02DDD /* AppDelegate.h */,
 				CF90865B19380E9800B02DDD /* AppDelegate.m */,
 				CF90865D19380E9800B02DDD /* Main_iPhone.storyboard */,
@@ -234,6 +237,7 @@
 				CF90866219380E9800B02DDD /* Main_iPad.storyboard in Resources */,
 				CF90866719380E9800B02DDD /* Images.xcassets in Resources */,
 				CF90865F19380E9800B02DDD /* Main_iPhone.storyboard in Resources */,
+				BA84BDB21939BF370053FCB5 /* nyan-cat-meme.jpg in Resources */,
 				CF90865619380E9800B02DDD /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -470,6 +474,7 @@
 				CF90867F19380E9800B02DDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF90868019380E9800B02DDD /* Build configuration list for PBXNativeTarget "hello-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +483,7 @@
 				CF90868219380E9800B02DDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
